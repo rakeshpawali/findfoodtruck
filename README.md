@@ -9,9 +9,9 @@ For building and running the application you need:
 
 ## Run the application
 ```
-> git clone git@github.com:getgauge/Intellij-Plugin.git
-> cd FindFood
-> ./gradlew  bootRun
+> git clone git@github.com:rakeshpawali/findfoodtruck.git
+> cd findfoodtruck
+> ./gradlew bootRun
 ```
 ## Endpoints Exposed
 |                  URL                   | Method |          Remarks       |
