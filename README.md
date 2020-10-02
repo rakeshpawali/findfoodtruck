@@ -21,7 +21,7 @@ For building and running the application you need:
 ## Sample Request and Response
 
 ```
-http://localhost:8080/findfoodtruck?longitude=-122.397726709152&latitude=37.7875398934675&noOfResults=2`
+http://localhost:8080/findfoodtruck?longitude=-122.397726709152&latitude=37.7875398934675&noOfResults=2
 ```
 ```json
 
