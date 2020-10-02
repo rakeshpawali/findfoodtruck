@@ -9,7 +9,7 @@ For building and running the application you need:
 
 ## Run the application
 ```
-> git clone git@github.com:rakeshpawali/findfoodtruck.git
+> git clone https://github.com/rakeshpawali/findfoodtruck.git
 > cd findfoodtruck
 > ./gradlew bootRun
 ```
