@@ -27,7 +27,22 @@ http://localhost:8080/findfoodtruck?longitude=-122.397726709152&latitude=37.7875
 
 [
     {
-        "distance": 0.023491975912466205,
+        "distance": 0,
+        "foodTruckDetails": {
+            "locationid": "1447794",
+            "Applicant": "Street Meet",
+            "Latitude": 37.7875398934675,
+            "Longitude": -122.397726709152,
+            "FacilityType": "Truck",
+            "LocationDescription": "HOWARD ST: 01ST ST to MALDEN ALY (500 - 589)",
+            "Address": "564 HOWARD ST",
+            "FoodItems": "Tortas: Burritos: Tacos: Churros: Nachos: Asada Fries",
+            "Schedule": "http://bsm.sfdpw.org/PermitsTracker/reports/report.aspx?title=schedule&report=rptSchedule&params=permit=20MFF-00007&ExportPDF=1&Filename=20MFF-00007_schedule.pdf",
+            "Location": "(37.7875398934675, -122.397726709152)"
+        }
+    },
+    {
+        "distance": 0.023146387133832682,
         "foodTruckDetails": {
             "locationid": "1367290",
             "Applicant": "Star Taco",
@@ -39,21 +54,6 @@ http://localhost:8080/findfoodtruck?longitude=-122.397726709152&latitude=37.7875
             "FoodItems": "Mexican Food",
             "Schedule": "http://bsm.sfdpw.org/PermitsTracker/reports/report.aspx?title=schedule&report=rptSchedule&params=permit=19MFF-00128&ExportPDF=1&Filename=19MFF-00128_schedule.pdf",
             "Location": "(37.7873042488646, -122.398037251912)"
-        }
-    },
-    {
-        "distance": 0.03920102536035149,
-        "foodTruckDetails": {
-            "locationid": "1339633",
-            "Applicant": "Plaza Garibaldy",
-            "Latitude": 37.7879549596858,
-            "Longitude": -122.397236543731,
-            "FacilityType": "Truck",
-            "LocationDescription": "HOWARD ST: 01ST ST to MALDEN ALY (500 - 589)",
-            "Address": "540 HOWARD ST",
-            "FoodItems": "Tacos: burritos: quesadillas",
-            "Schedule": "http://bsm.sfdpw.org/PermitsTracker/reports/report.aspx?title=schedule&report=rptSchedule&params=permit=19MFF-00100&ExportPDF=1&Filename=19MFF-00100_schedule.pdf",
-            "Location": "(37.7879549596858, -122.397236543731)"
         }
     }
 ]
