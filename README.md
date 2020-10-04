@@ -1,5 +1,20 @@
 # CSE Code Challenge
-https://github.com/timfpark/take-home-engineering-challenge/blob/main/README.md
+
+## Problem Statement
+[Coding Challenge](https://github.com/timfpark/take-home-engineering-challenge/blob/main/README.md)
+
+## Solution Summary 
+
+The solution uses JAVA programming language. Below are the salient features.
+
+
+- A REST API to search food trucks based on longitude and latitude. 
+- Ability to get specified no of results
+- Utilises San Francisco's food truck open dataset [csv](https://data.sfgov.org/api/views/rqzj-sfat/rows.csv) endpoint
+- SFO food truck dataset cached locally and refreshed on a daily (configurable) bases
+- Uses Google Android Location API to calculate the distance between given coordinates.
+
+
 
 ## Requirements
 
@@ -13,7 +28,7 @@ For building and running the application you need:
 > cd findfoodtruck
 > ./gradlew bootRun
 ```
-## Endpoints Exposed
+## Endpoints 
 |                  URL                   | Method |          Remarks       |
 |----------------------------------------|--------|------------------------|
 |`http://localhost:8080/findfoodtruck?longitude=<double>>&latitude=<double>&noOfResults=<int>`           | GET    | Find Food Trucks based on query params               |
