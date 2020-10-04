@@ -27,9 +27,9 @@ public class FoodTruckController {
      * @return  {@link List<SearchResult>}
      * @throws ExecutionException
      */
-    @RequestMapping(method = RequestMethod.GET, value = "/findfoodtruck", produces = {
+    @RequestMapping (method = RequestMethod.GET, value = "/findfoodtruck", produces = {
             MediaType.APPLICATION_JSON_VALUE})
-    public List<SearchResult> findFoodTrucks(@RequestParam(value = "latitude", required = true) double latitude,
+    public List<SearchResult> findFoodTrucks (@RequestParam(value = "latitude", required = true) double latitude,
                                              @RequestParam(value = "longitude", required = true) double longitude,
                                              @RequestParam(value = "noOfResults", required = true) int noOfResults) throws ExecutionException {
         return findFoodService.findNearestFoodTruck(latitude, longitude, noOfResults);

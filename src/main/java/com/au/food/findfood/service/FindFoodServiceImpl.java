@@ -26,7 +26,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Slf4j
-public class FindFoodServiceImpl implements FindFoodService{
+public class FindFoodServiceImpl implements FindFoodService {
 
     @Autowired
     private FoodTruckCacheManager foodTruckCacheManager;
@@ -54,7 +54,7 @@ public class FindFoodServiceImpl implements FindFoodService{
     }
 
     @Override
-    public List<SearchResult> findNearestFoodTruck(double latitude, double longitude, int noOfTrucks) throws ExecutionException {
+    public List<SearchResult> findNearestFoodTruck (double latitude, double longitude, int noOfTrucks) throws ExecutionException {
 
             Location userLocation = new Location(latitude, longitude);
 
@@ -83,7 +83,7 @@ public class FindFoodServiceImpl implements FindFoodService{
      * @param entries
      * @return {@link List<SearchResult> }
      */
-    private List<SearchResult> getDetails(int noOfTrucks, Set<Map.Entry<FoodTruckDetails, Double>> entries) {
+    private List<SearchResult> getDetails (int noOfTrucks, Set<Map.Entry<FoodTruckDetails, Double>> entries) {
         List<SearchResult> resultList = new ArrayList<>();
         int counter = 0;
         for (Map.Entry<FoodTruckDetails, Double> entry : entries) {

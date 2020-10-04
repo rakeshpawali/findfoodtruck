@@ -21,5 +21,5 @@ public interface FindFoodService {
      * @return {@link List<SearchResult>}
      * @throws ExecutionException
      */
-    List<SearchResult> findNearestFoodTruck(double latitude, double longitude, int noOfTrucks) throws ExecutionException;
+    List<SearchResult> findNearestFoodTruck (double latitude, double longitude, int noOfTrucks) throws ExecutionException;
 }
